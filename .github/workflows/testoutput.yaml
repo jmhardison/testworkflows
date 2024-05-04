@@ -10,6 +10,6 @@ jobs:
       - name: try range of outs out
         run: |
           echo "[Debug] Debug line here."
-          echo "[Warn] Warning line"
+          echo "[Warning] Warning line"
           echo "[Error] Derpy message went boom"
           echo "hello normal"
