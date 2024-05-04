@@ -11,4 +11,5 @@ jobs:
         run: |
           echo "[Debug] Debug line here."
           echo "[Warn] Warning line"
+          echo "[Error] Derpy message went boom"
           echo "hello normal"
