@@ -1,0 +1,14 @@
+name: test output workflow
+
+on:
+  workflow_dispatch
+
+jobs:
+  echo_out:
+    runs-on: ubuntu-latest
+    steps:
+      - name: try range of outs out
+        run: |
+          echo "[Debug] Debug line here."
+          echo "[Warn] Warning line"
+          echo "hello normal"
