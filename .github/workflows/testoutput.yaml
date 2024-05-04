@@ -13,3 +13,4 @@ jobs:
           echo "[Warning] Warning line"
           echo "[Error] Derpy message went boom"
           echo "hello normal"
+          echo -e "\033[38;5;206;48;5;57mmHello\033[0m"
